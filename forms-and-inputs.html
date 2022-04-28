@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <header style="border: 2px; color: brown;"> Formlar ve Inputlar</header>
+
+    <h1 style="font-family: 'Courier New', Courier, monospace; color: rgb(135, 9, 9); font-size: smaller;">Haydi sen de formu doldur!</h1>
+    
+    <form action="">
+
+        <!-- HTML Input -->
+
+        <!-- NAME: attribute'unu kodlama dosyamızın bulmas -->
+
+         <!-- TEXT INPUTU: DUZ YAZI YAZILAN ALAN -->
+
+        <label for="name" class="mid=article">Name & Surname</label>
+
+        <br>
+
+        <input type="text" id="name" name="name">
+        
+        <br>
+
+        <!-- EMAIL INPUTU: EMAIL ICIN ALAN, @ ISARETI ISTER, YOKSA DEFAULT UYARI VERIR -->
+
+        <label for="email" class="mid=article">E-mail:</label>
+
+        <br>
+        
+        <input type="email" name="email" id="email">
+
+        <br>
+
+        <!-- PASSWORD INPUTU: PAROLA YAZDIGIMIZ ALAN. YILDIZLI GÖZÜKÜR. -->
+
+        <label for="password" class="mid-article">Password:</label>
+
+        <br>
+
+        <input type="password" name="password" id="password">
+        
+        <br>
+
+        <label for="date">Date of Birth:</label>
+        
+        <br>
+
+        <input type="date" id="date" name="date">
+
+        <br>
+        <br>
+
+        Gender:
+        <br>
+        Male
+        <input type="radio" name = "gender">
+        Female
+        <input type="radio" name="gender">
+        Other
+        <input type="radio" name="gender">
+
+        <br>
+        <br>
+
+        Hobbies:
+
+        <br>
+        Technology
+        <input type="checkbox" name="tech" id = "tech">
+        Music
+        <input type="checkbox" name="music" id="music">
+        Art
+        <input type="checkbox" name="art" id="art">
+
+        <br>
+        <br>
+
+        Degree
+
+        <br>
+
+        <select name="degree" id="degree">
+         <option value="Bachelor">Bachelor</option>
+         <option value="MSC">MSC</option>
+         <option value="PHD">PHD</option>
+        </select>
+
+        <br>
+        <br>
+
+        Message
+
+        <br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Text your message..."></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Gönder!">
+        <!-- <button type="submit">Gönder!</button> -->
+        
+
+        <button type="reset">Sıfırla!</button>
+        <!-- <input type="reset" value="Sıfırla!"> -->
+
+        <br>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
